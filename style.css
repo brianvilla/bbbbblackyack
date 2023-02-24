@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Minecraft Regular';
+  src: url(/assets/minecraft_font.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 1vh;
+  background-color: #BABABA;
+  font-family: 'Minecraft Regular';
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;    
+  margin-bottom: 8rem;
+}
+
+.head-img {
+  width: 150px;
+}
+
+.buttons {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.info {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.mid {
+  height: 3px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 3.5em;
+  background-color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  font-size: 1vh;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EF0701;
+  cursor: pointer;
+}
+
+p {
+  font-size: 3vmin;
+}
+
+button {
+  font-family: 'Minecraft Regular';
+  font-size: 3vmin;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.player {
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.grid {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.card {
+  height: 100px;
+}
+
+#hit {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 0.5em 2em 0.5em 2em;
+  width: 25%;
+  display: none;
+}
+
+#stay {
+  color: #EF0701;
+  background-color: #ffffff;
+  padding: 0.5em 1em 0.5em 1em;
+  display: none;
+}
+
+#new-game {
+  width: 33.5%;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 0.5em 1em 0.5em 1em;
+}
+
+#github {
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* sweet alert */
+.swal-title {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.swal-text {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: justify;
+  padding: 2em;
+}

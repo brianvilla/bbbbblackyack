@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blackyack</title>
+    <link rel="shortcut icon" href="/assets/sprites/icon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+  <body>
+
+    <!-- logo -->
+    <header>
+      <img class="head-img" src="/assets/sprites/blackjack.png" alt="">
+    </header>
+
+    <!-- dealer -->
+    <div class="player">
+        <p>Dealer: &nbsp;<span>00</span></p>
+    </div>
+    <div class="container">
+        <div class="grid" id="dealer-cards"></div>      
+    </div>
+    
+    <div class="mid">&nbsp;</div>
+
+    <!-- player -->
+    <div class="player">
+        <p>Player: &nbsp;<span>00</span></p>
+    </div>
+    <div class="container">
+        <div class="grid" id="player-cards"></div>
+    </div>
+
+    <!-- buttons -->
+    <div class="buttons">
+        <button class="hide" id="hit">hit</button>
+        <button class="hide" id="stay">stay</button>
+        <button class="show" id="new-game">new game</button>
+    </div>
+
+    <!-- instructions -->
+    <div class="info">
+        <a>how to play</a>
+    </div>
+
+    <!-- GitHub -->
+    <div class="info">
+      <a href="https://github.com/brianvilla" target="_blank">https://github.com/brianvilla</a>
+    </div>
+    
+    <div class="info">&nbsp;</div>
+
+      <!-- scripts -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
